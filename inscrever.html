@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="Index.html"><img src="logo.png"></a> |
+      <a href="foguetes.html">Our spaceships</a> |
+      <a href="inscrever.html">Hire us</a>
+    </nav>
+  </header>
+  <hr>
+  <div>
+    <h1>Hire us</h1>
+    <p>manda os teus dados pra nós ai ksks</p>
+  </div>
+  <br>
+  <main>
+    <form action="#" method="post">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name here" required> - 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email here" required>
+      </div>
+      <br>
+      <div>
+        Spaceship:
+        <select id="nave" required>
+          <option value="falcon9">Falcon 9</option>
+          <option value="FalconHeavy">Falcon Heavy</option>
+        </select> - 
+        <label for="service">Type of service:</label>
+        <input type="search" name="service" id="service" list="services">
+        <datalist id="services">
+          <option value="Que isso meu filho calma"></option>
+          <option value="Uepaaaaaaaaaa"></option>
+          <option value="Ela é amiga da minha mulher"></option>
+          <option value="Pois é pois é"></option>
+          </datalist>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Send menssage">
+      </div>
+    </form>
+  </main>
+</body>
+</html>
